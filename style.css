@@ -20,8 +20,13 @@ body {
     background-color: #1F2937;
 }
 
-.header-top {
+.header-block {
     width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-top {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -50,7 +55,6 @@ a {
 .header-bottom {
     display: flex;
     gap: 50px;
-    width: 1000px;
     margin: 100px 0;
 }
 
