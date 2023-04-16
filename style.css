@@ -178,3 +178,36 @@ a {
     font-size: 22px;
     font-weight: 500;
 }
+
+.action-block {
+    margin: 100px 0;
+    padding: 50px 50px;
+    border-radius: 10px;
+    width: 1000px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-message1 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.action-message2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    font-size: 18px;
+    padding: 8px 32px;
+    font-weight: bold;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+}
